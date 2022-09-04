@@ -1,0 +1,31 @@
+.imageUpload {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+.imageUpload__progress {
+  width: 100%;
+  padding: 10px 0px 20px 0px;
+}
+.buttons {
+  height: 15px;
+  width: 30px;
+}
+.caption {
+  padding: 5px 0px 10px 0px;
+  border: 1px solid gray;
+}
+.choose-file {
+  padding: 10px 0px;
+}
